@@ -57,6 +57,19 @@
 		"ext2": "-factory.bin",
 		"addons": ["readme.pdf"]
 	},
+	"GALE": {
+		"details": "Google Wifi (Gale)",
+		"type": "2",
+		"build": "2305",
+		"config": ".config_ipq40xx",
+		"image1": "google_wifi-squashfs-sysupgrade.bin",
+		"image2": "google_wifi-squashfs-factory.bin",
+		"imagepath": "/ipq40xx/chromium/",
+		"mod": "Google-Wifi",
+		"ext1": "-upgrade.bin",
+		"ext2": "-factory.bin",
+		"addons": ["readme.pdf"]
+	},
 	"WRX36": {
 		"details": "Dynalink DL-WRX36",
 		"type": "2",
