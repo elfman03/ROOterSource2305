@@ -58,14 +58,14 @@
 		"addons": ["readme.pdf"]
 	},
 	"GALE": {
-		"details": "Google Wifi (Gale)",
+		"details": "Google Wifi (AC-1304)",
 		"type": "2",
 		"build": "2305",
-		"config": ".config_ipq40xx",
-		"image1": "google_wifi-squashfs-sysupgrade.bin",
-		"image2": "google_wifi-squashfs-factory.bin",
+		"config": ".config_gale",
+		"image1": "openwrt-ipq40xx-chromium-google_wifi-squashfs-sysupgrade.bin",
+		"image2": "openwrt-ipq40xx-chromium-google_wifi-squashfs-factory.bin",
 		"imagepath": "/ipq40xx/chromium/",
-		"mod": "Google-Wifi",
+		"mod": "Google-Wifi-Gale",
 		"ext1": "-upgrade.bin",
 		"ext2": "-factory.bin",
 		"addons": ["readme.pdf"]
